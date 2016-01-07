@@ -1,13 +1,16 @@
- {
-    "name": "TimestampMicroservice",
-    "version": "1.0.0",
-    "description": "API Basejump: Timestamp microservice",
-    "main": "server.js",
-    "scripts": {"start": "node server.js"},
-    "author": "Robin Lu",
-    "dependencies" : {
-        "express": "^4.12.4",
-        "mongoose"   : "~4.1.0",
-        "method-override": "~2.1.2"
-    }
+{
+  "name": "TimestampMicroservice",
+  "version": "1.0.0",
+  "description": "API Basejump: Timestamp microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Robin Lu",
+  "dependencies": {
+    "express": "^4.12.4",
+    "method-override": "~2.1.2",
+    "moment": "^2.11.0",
+    "mongoose": "~4.1.0"
+  }
 }
