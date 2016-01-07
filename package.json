@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "API Basejump: Timestamp microservice",
     "main": "server.js",
+    "scripts": {"start": "node server.js"},
     "author": "Robin Lu",
     "dependencies" : {
         "express": "^4.12.4",
