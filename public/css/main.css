@@ -8,10 +8,25 @@ body {
 	padding: 50px;
 	margin: 0 0 14px 0;
 	text-align: center;
+	background:darkgrey;
 }
 
+h1{
+	font-size: 3.5em;
+	color: white;
+}
+
+h2{
+	font-size: 2em;
+	color: white;
+	padding:2%;  
+}
 ol {
   text-align: left;  
   list-style-type:none;
+  width:50%;
+  margin:10% auto; 
+   
 }
+
 
