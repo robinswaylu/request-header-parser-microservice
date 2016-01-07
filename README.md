@@ -1,19 +1,16 @@
-# Timestamp microservice
+# Request Header Parser Microservice
 
 ## Overview
 
-Timestamp microservice is a lightweight microservice that accepts string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date. If it does, it returns both the Unix timestamp and the natural language form of that date. 
+Request Header Parser Microservice is a lightweight microservice that display client's IP address, language and operating system. 
 
 ## Versions
 
-- [**Standard**]: the simplest version.
-- [**GUI**]: a slightly more complex version of the same application.
+- [**Standard**]: the simplest version. 
 
 # Quick Start Guide
 
-- I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)
-- If it does, it returns both the Unix timestamp and the natural language form of that date.
-- If it does not contain a date or Unix timestamp, it returns null for those properties.
+-  
 
 ## License
 
